@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "Trader Locator",
+        "description": "Recieve coordinates when a Wandering Trader spawns to help you find it.",
+        "icon": {
+            "item": "emerald"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:trader_locator",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}
